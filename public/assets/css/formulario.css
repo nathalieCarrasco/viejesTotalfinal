@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+background-color: #fff;
+    font-family: Arial, sans-serif;
+    color: #050000;
+  }
+  
+  input.error, textarea.error {
+    background-color: rgb(244, 164, 164);
+    border: red solid 2px;
+}
+span.error {
+    color: rgb(112, 0, 0);   
+    font-size: 12px; 
+    display: flex;
+}
+main {    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   align-items: center;
+
+}
+form fieldset {
+    padding: 1em 2em;
+    margin-bottom: 2em;
+    border-radius: 10px;
+  
+}
+.section-1{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: space-around;
+}
+.caja-2{
+  display: flex;
+  width: 80%;
+  height: 100px;
+  align-content:baseline;
+}
+.section-2{
+  width: 40%;
+  height: 80px;
+}
+.section-3{
+  width: 50%;
+  margin-left: 15px;
+  height: 80px;
+}
+
+.section-3 textarea{
+  width: 100%;
+  height: 50px;
+}
+
+.botones button{
+  color: #050000;
+  background-color: #70AEDF;
+  margin: 0;
+}
+
+form{
+  margin-top: 55px;
+  background-color: #FCBF42;
+  border-radius: 5%;
+  border: 2px solid #8BC9EF;
+}
+.caja-volver{
+  width: 100%;
+  background-color: #70AEDF;
+  height: 100px;
+}
+
+.caja-volver button{
+  margin-top: 25px;
+}
+.caja-volver button a{
+  color: #ffffff;
+  background-color: transparent;
+}
+.caja-volver button:hover{
+  background-color: #FCBF42;
+}
+.caja-volver button a:hover{
+  color: #030000;
+
+}
+
+
+
+
+@media screen and (min-width: 768px) {        
+    form fieldset {
+        width: 50%;
+    }
+}
+form input, form select {
+    height: 1.7em;
+    border-radius: 10px;
+    border-color: #ccc;
+    border-style: solid;
+    padding: 0.2em 1em;
+    font-size: 1.1em;
+}
+form fieldset > div {
+    margin-bottom: 1em;
+}
+form span {
+    font-weight: 300;    
+}
+form fieldset legend {
+    font-weight: 500;
+}
+form fieldset div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+form fieldset div label {
+    font-weight: 300;
+}
+form select {
+    font-size: 1.2em;
+    color: #333;
+}
+button {
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+    font-size: 1.0em;
+    line-height: 2em;
+    padding: 0.2em 2em;
+    cursor: pointer;
+    margin-right: 2em;
+    font-weight: 500;
+    transition: all 1s ease-out;
+}
+button:hover {
+    background-color: black;
+}
+button:disabled {
+    background-color: gray;
+    color: #ccc;
+    cursor: not-allowed;}

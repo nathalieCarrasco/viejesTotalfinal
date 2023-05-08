@@ -1,0 +1,19 @@
+{
+  "name": "admin-viajes",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 9080",
+    "build": "next build",
+    "build2": "next build && node post-build.js",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.4.1",
+    "next": "13.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}

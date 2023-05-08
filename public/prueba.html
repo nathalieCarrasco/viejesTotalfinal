@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prueba envio datos Post</title>
+    <script src="./assets/js/registro.js" defer></script>
+ <!--    <script>
+       /* const persona ={
+            name:'nohita',
+            age:3
+        };
+        fetch('https://mini-holistic-pamphlet.glitch.me/registro-usuario',{
+            method:'POST',
+            body:JSON.stringify(persona),
+            headers:{
+                'content-type':'application/json'
+            }
+        })
+        .then(response=>response.json())
+        .then(data=>console.dir(data))
+        .catch(error=>console.error(error))
+        
+    </script>   -->  
+</head>
+<body>
+    <h1>formulario de registro</h1>
+    <form action="prueba.html" method='POST'>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email">
+
+      <label for="contraseña">Contraseña</label>
+      <input type="password" name="contraseña" id="contraseña">
+      
+      <button type="submit"> REGISTRARME</button>
+    </form>
+
+
+    
+</body>
+</html>

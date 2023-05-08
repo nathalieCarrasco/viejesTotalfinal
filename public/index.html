@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- estilos de googleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/3ad8b80676.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Agencia de Viajes</title>
+  </head>
+  <body>
+    
+  
+    <nav>
+      <div class="subbar">
+      <a href="">Acceder</a>
+      <a href="#">Registrarse</a>
+    </div>
+      <div class="logo">
+        <img src="/src/img/viajesTotalLogo.png" alt="Logo">
+      </div>
+      <div class="hamburger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#main-container">Top Destinos</a></li>
+        <li><a href="./formulario.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <header>
+      <div class="contenedor-carrusel">
+        <div class="carrusel-container">
+          <div class="carrusel-slide">
+            <img src="src/img/portada-carrusel.jpg" alt="Imagen 1" />
+          </div>
+          <div class="carrusel-slide">
+            <img
+              src="src/img/11062b_5d75d9c1c3244f6dbee259f5aced7d6b_mv2.webp"
+              alt="Imagen 2"
+            />
+          </div>
+          <div class="carrusel-slide">
+            <img src="src/img/carrusel-3.jpg" alt="Imagen 3" />
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="contenedor-formulario">
+        <form class="formulario">
+          <div class="formulario-buscar-destino">
+            <label for="destino">Buscar destino:</label>
+            <input
+              type="text"
+              id="destino"
+              name="destino"
+              placeholder="Ingresa tu destino"
+            />
+          </div>
+          <div class="formulario-buscar-fechas">
+            <i class="fas fa-calendar-check"></i>
+            <label for="fecha-inicio">Desde:</label>
+            <input type="date" id="fecha-inicio" name="fecha-inicio" />
+            <label for="fecha-fin">Hasta:</label>
+            <input type="date" id="fecha-fin" name="fecha-fin" />
+          </div>
+          <i class="fab fa-searchengin"></i>
+          <button type="submit">Buscar</button>
+        </form>
+      </div> -->
+    </header>
+    <section id="nosotros" class="banner-box">
+      <h2>Bienvenido a Nuestra Agencia <span>Viajes Total</span></h2>
+      <h4>
+        viajes Total te permite comprar tus boletos de avión, reservar tu
+        estadía en un hotel y armar tu viaje de manera online para tener el
+        mejor paquete turístico. También te ofrecemos la atención personalizada
+        de expertos asesores de viaje y turismo que te pueden ayudar a encontrar
+        las mejores ofertas y descuentos para vivir experiencias inolvidables
+        junto a Viajes Total
+      </h4>
+      <div class="box-icon">
+        <div class="border-box-icon">
+          <i class="fas fa-search-location icon"></i>
+          <p>Busca tu viaje</p>
+        </div>
+
+        <div class="border-box-icon">
+          <i class="fas fa-suitcase-rolling icon"></i>
+          <p>Elije tu Hotel</p>
+        </div>
+
+        <div class="border-box-icon">
+          <i class="fas fa-wallet icon"></i>
+          <p>Paga con tu tarjeta Bancaria</p>
+        </div>
+      </div>
+    </section>
+    <!-- inicio tarjetas mejores ofertas  -->
+    <aside class="ofertas-box">
+      <h3>paquetes imperdibles.</h3>
+      <div class="box-tarjetas">
+        <!--         inicio tarjeta 1 -->
+
+        <div class="tarjeta">
+          <div class="titulo">Paquete Alemania</div>
+          <div class="cuerpo">
+            <img src="src/img/alemania.jpg" alt="muestra" />
+            <div class="cuerpo-tarjeta">
+              <div class="box-icon-tarjeta">
+                <i class="fas fa-plane-departure"></i>
+                <p>VUELO Operado por Copa Airlines</p>
+              </div>
+
+              <div class="box-icon-tarjeta">
+                <i class="fas fa-hotel"></i>
+                <p>ALOJAMIENTO 7 noches</p>
+              </div>
+
+              <div class="box-icon-tarjeta">
+                <i class="fas fa-bus-alt"></i>
+                <p>TRASLADO COMPARTIDO</p>
+              </div>
+
+              <div class="box-icon-tarjeta">
+                <i class="fas fa-hand-holding-medical"></i>
+                <p>ASISTENCIA DE VIAJE</p>
+              </div>
+            </div>
+          </div>
+          <div class="pie">
+            <h6><del>ANTES $ 918.325</del></h6>
+            <h6>Precio Final</h6>
+            <p>$ <span>625.000</span></p>
+            <button class="btn-tarjeta"><a href="#">RESERVAR</a></button>
+            <h5>
+              También incluye Wi-Fi gratis en zonas comunes · Piscina · Aire
+              acondicionado en zonas comunes
+            </h5>
+          </div>
+        </div>
+
+        <!--  fin tarjeta 1  -->
+        <!--  inicio tarjeta 2-->
+
+        <div class="tarjeta">
+          <div class="titulo">Paquete Rio</div>
+          <div class="cuerpo">
+            <img src="src/img/rio.jpg" alt="muestra" />
+            <div class="cuerpo-tarjeta">
+              <div class="box-icon-tarjeta">
+                <i class="fas fa-plane-departure"></i>
+                <p>VUELO Operado por Airlines S.A</p>
+              </div>
+
+              <div class="box-icon-tarjeta">
+                <i class="fas fa-hotel"></i>
+                <p>ALOJAMIENTO 5 noches</p>
+              </div>
+
+              <div class="box-icon-tarjeta">
+                <i class="fas fa-bus-alt"></i>
+                <p>TRASLADO COMPARTIDO</p>
+              </div>
+
+              <div class="box-icon-tarjeta">
+                <i class="fas fa-hand-holding-medical"></i>
+                <p>ASISTENCIA DE VIAJE</p>
+              </div>
+            </div>
+          </div>
+          <div class="pie">
+            <h6><del>ANTES $ 518.325</del></h6>
+            <h6>Precio Final</h6>
+            <p>$ <span>425.000</span></p>
+            <button class="btn-tarjeta"><a href="#">RESERVAR</a></button>
+            <h5>
+              También incluye Wi-Fi gratis en zonas comunes · Piscina · Aire
+              acondicionado en habitacion y espacios Comunes .
+            </h5>
+          </div>
+        </div>
+
+        <!--  fin tarjeta 2  -->
+        <!--  inicio tarjeta 3-->
+
+        <div class="tarjeta">
+          <div class="titulo">Paquete Madrid</div>
+          <div class="cuerpo">
+            <img src="src/img/madrid.jpg" alt="muestra" />
+            <div class="cuerpo-tarjeta">
+              <div class="box-icon-tarjeta">
+                <i class="fas fa-plane-departure"></i>
+                <p>VUELO Operado por EuropaLAN</p>
+              </div>
+
+              <div class="box-icon-tarjeta">
+                <i class="fas fa-hotel"></i>
+                <p>ALOJAMIENTO 6 noches</p>
+              </div>
+
+              <div class="box-icon-tarjeta">
+                <i class="fas fa-bus-alt"></i>
+                <p>TRASLADO COMPARTIDO</p>
+              </div>
+
+              <div class="box-icon-tarjeta">
+                <i class="fas fa-hand-holding-medical"></i>
+                <p>ASISTENCIA DE VIAJE</p>
+              </div>
+            </div>
+          </div>
+          <div class="pie">
+            <h6><del>ANTES $ 718.325</del></h6>
+            <h6>Precio Final</h6>
+            <p>$ <span>635.000</span></p>
+            <button class="btn-tarjeta"><a href="#">RESERVAR</a></button>
+            <h5>
+              También incluye Wi-Fi gratis en zonas comunes y Habitacion ·
+              Piscina · Aire acondicionado en habitacion y espacios Comunes .
+            </h5>
+          </div>
+        </div>
+        <!--  fin tarjeta 3  -->
+      </div>
+    </aside>
+    <!--  fin section tarjetas  -->
+    <!--   inicio de main muestra tarjetas  -->
+    <main id="main-container">
+      <div class="text-box-header">
+        <h2>NUESTROS MEJORES DESTINOS</h2>
+      </div>
+      <div class="box-main">
+        <div class="caja-1 card">
+          <div class="header-card">
+            <img src="src/img/madrid.jpg" alt="madrid " />
+          </div>
+          <div class="cuerpo-card">
+            <div class="texto-card-head">
+              <h4>Europa</h4>
+              <p>
+                paquete romantico a europa por lugares increibles invluye
+                pasajes y alojamientos
+              </p>
+            </div>
+            <div class="precios-box">
+              <p>viaja por solo $ <span>1200 </span></p>
+              <button>Ver Paquete</button>
+            </div>
+            <div class="icon-box">
+              <i class="fas fa-hotel i"></i>
+              <i class="fas fa-plane-departure i"></i>
+              <i class="fas fa-bus-alt i"></i>
+              <i class="fas fa-hand-holding-medical i"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="caja-2 card">
+          <div class="header-card">
+            <img src="src/img/brasil.jpg" alt="madrid " />
+          </div>
+          <div class="cuerpo-card">
+            <div class="texto-card-head">
+              <h4>Rio</h4>
+              <p>
+                exclusivo no te pierdas las playas del caribe en un increible
+                resort 5 estrellas por 5 noches
+              </p>
+            </div>
+            <div class="precios-box">
+              <p>viaja por solo $ <span>1200 </span></p>
+              <button>Ver Paquete</button>
+            </div>
+            <div class="icon-box">
+              <i class="fas fa-hotel i"></i>
+              <i class="fas fa-plane-departure i"></i>
+              <i class="fas fa-bus-alt i"></i>
+              <i class="fas fa-hand-holding-medical i"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="caja-2 card">
+          <div class="header-card">
+            <img src="src/img/bahia-principe.jpg" alt="madrid " />
+          </div>
+          <div class="cuerpo-card">
+            <div class="texto-card-head">
+              <h4>Bahia Principe</h4>
+              <p>Partiendo desde Santiago de Chile Hotel + Vuelo</p>
+            </div>
+            <div class="precios-box">
+              <p>viaja por solo $ <span>1200 </span></p>
+              <button>Ver Paquete</button>
+            </div>
+            <div class="icon-box">
+              <i class="fas fa-hotel i"></i>
+              <i class="fas fa-plane-departure i"></i>
+              <i class="fas fa-bus-alt i"></i>
+              <i class="fas fa-hand-holding-medical i"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="caja-2 card">
+          <div class="header-card">
+            <img src="src/img/buenosaires.webp" alt="madrid " />
+          </div>
+          <div class="cuerpo-card">
+            <div class="texto-card-head">
+              <h4>Buenos Aires</h4>
+              <p>Hotel + Vuelo. Incluye impuestos, tasas y cargos</p>
+            </div>
+            <div class="precios-box">
+              <p>viaja por solo $ <span>1200 </span></p>
+              <button>Ver Paquete</button>
+            </div>
+            <div class="icon-box">
+              <i class="fas fa-hotel i"></i>
+              <i class="fas fa-plane-departure i"></i>
+              <i class="fas fa-bus-alt i"></i>
+              <i class="fas fa-hand-holding-medical i"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="caja-2 card">
+          <div class="header-card">
+            <img src="src/img/Cancun.webp" alt="madrid " />
+          </div>
+          <div class="cuerpo-card">
+            <div class="texto-card-head">
+              <h4>Cancun</h4>
+              <p>
+                Hospedaje en hoteles ubicados a pie de playa. Desayunos tipo
+                buffet en plan con desayunos.
+              </p>
+            </div>
+            <div class="precios-box">
+              <p>viaja por solo $ <span>1200 </span></p>
+              <button>Ver Paquete</button>
+            </div>
+            <div class="icon-box">
+              <i class="fas fa-hotel i"></i>
+              <i class="fas fa-plane-departure i"></i>
+              <i class="fas fa-bus-alt i"></i>
+              <i class="fas fa-hand-holding-medical i"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="caja-6 card">
+          <div class="header-card">
+            <img src="src/img/aruba.webp" alt="madrid " />
+          </div>
+          <div class="cuerpo-card">
+            <div class="texto-card-head">
+              <h4>Aruba.</h4>
+              <p>
+                Hospedaje en hoteles ubicados a pie de playa. Desayunos tipo
+                buffet en plan con desayunos.
+              </p>
+            </div>
+            <div class="precios-box">
+              <p>viaja por solo $ <span>1200 </span></p>
+              <button>Ver Paquete.</button>
+            </div>
+            <div class="icon-box">
+              <i class="fas fa-hotel i"></i>
+              <i class="fas fa-plane-departure i"></i>
+              <i class="fas fa-bus-alt i"></i>
+              <i class="fas fa-hand-holding-medical i"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <article class="box-articule">
+     <div class="box-text-articule">
+      <h2>¿ Quieres Tener Siempre las mejores ofertas. ? </h2>
+      <hr>
+      <p>Suscribete y enterate de los mejores paquetes !</p>
+     </div>
+     <div class="box-contenido-articule">
+      <form action="" class="formulario-article">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path id="Imagotipo" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+        <label for="email"></label>
+        <input type="email" placeholder="Ingresa tu email">
+
+        <button type="submit">registrarme</button>
+      </form>
+     </div>
+    </article>
+    <section class="seccion-text">
+      <div class="container-img">
+        <img src="/src/img/agente.jpg" alt="">
+      </div>
+      <div class="container-texto">
+        <h3>Nuestos agentes estan para ayudarte </h3>
+        <p>contamos con un personal altamente capacitado para poder brindarte la mejor de la ayudas y consejos al elegir tu proximo destino y hacer de esta una experiencia inolvidable</p>
+      </div>
+    </section>
+    <footer>
+      <h4>viajes total una compañia de viajes & seguros</h4> 
+      <div class="lista-footer">
+      <ul>
+        <li>contactanos</li>
+        <li>sobre nosotros</li>
+        <li>sigue nuestras redes</li>
+      </ul>
+      </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
